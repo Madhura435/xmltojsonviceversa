@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ness>
+<employee>
+<id>1</id>
+<name>Madhura</name>
+<age>45</age>
+<city>Banglore</city>
+</employee>
+<employee>
+<id>2</id>
+<name>priya</name>
+<age>45</age>
+<city>Banglore</city>
+</employee>
+<frreinds>
+<name>priya</name>
+<age>23</age>
+</frreinds>
+</ness>
