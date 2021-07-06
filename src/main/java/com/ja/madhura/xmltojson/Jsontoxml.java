@@ -19,9 +19,12 @@ public class Jsontoxml{
 		 String jsondata=FileUtils.readFileToString(new File("target/empjson.json"),"UTF-8");
 ObjectMapper objectMapper = new ObjectMapper();
 			ObjectMapper xmlMapper = new XmlMapper();
-			JsonNode tree = objectMapper.readTree(jsondata);
-			String jsontoXml = xmlMapper.writer().withRootName("RootTagName").writeValueAsString(tree);
+			JsonNode tree = objectMapper.readTree(jsondata.getBytes());
+			String jsontoXml =xmlMapper.writeValueAsString(tree); 
 			System.out.println("please find below json File to xml");
 			 System.out.println(jsontoXml);
+			 
+			 
+			
 	    }
 }
