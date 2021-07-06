@@ -44,7 +44,7 @@ public class Xmltojson
         String data1="";
         try
         {
-        	data1=FileUtils.readFileToString(new File("target/employee.xml"),"UTF-8");
+        	data1=FileUtils.readFileToString(new File("target/book.xml"),"UTF-8");
         	XmlMapper x1=new XmlMapper();
         	JsonNode jn1=x1.readTree(data1.getBytes());
         	ObjectMapper om1=new ObjectMapper();
