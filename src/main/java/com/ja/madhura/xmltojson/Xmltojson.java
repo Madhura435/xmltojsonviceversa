@@ -21,11 +21,11 @@ public class Xmltojson
         "<city>Banglore</city>"+
         "</employee>"+
         "<employee>"+
-        "<id>1</id>"+
-        "<name>Madhura</name>"+
-        "<age>45</age>"+
+        "<id>2</id>"+
+        "<name>priya</name>"+
+        "<age>23</age>"+
         "<city>Banglore</city>"+
-        "</employee>"+"<freinds>"+"<name>Madhura</name>"+"</freinds>"+
+        "</employee>"+"<friends>"+"<name>Madhavi</name>"+"</friends>"+
         "</ness>";
         
         try
